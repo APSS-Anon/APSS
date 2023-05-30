@@ -22,10 +22,10 @@ python3 main.py --dataset_size=10000 --lsh_size=21 --nb_eLSHes=631 --nb_matches_
 
 You can select a set of working parameters from table 1, 2, or 3 of the paper to set in the above command.
 
-  * ```shelldataset_size``` : is the intended dataset size
-  * ```shelllsh_size``` : is the size of each eLSH, or in other words number of concatenated LSHes. Corresponding to \alpha in the paper.
-  * ```shellnb_eLSHes``` : is the number of required eLSHes. Corresponding to n in the paper.
-  * ```shellnb_matches_needed``` : is the required number of matches so that the decoding algorithm works. Corresponding to k in the paper.
-  * ```shelleps_t``` : is the rate of mathing to close things for each LSH.
-  * ```shelleps_f``` : is the rate of matching to far thing for each LSH.
-  * ```shellerror_rate_percent``` : is the mean rate of errors, when sampling query from actual data.
+  * ```shell dataset_size``` : is the intended dataset size
+  * ```shell lsh_size``` : is the size of each eLSH, or in other words number of concatenated LSHes. Corresponding to \alpha in the paper.
+  * ```shell nb_eLSHes``` : is the number of required eLSHes. Corresponding to n in the paper.
+  * ```shell nb_matches_needed``` : is the required number of matches so that the decoding algorithm works. Corresponding to k in the paper.
+  * ```shell eps_t``` : is the rate of mathing to close things for each LSH.
+  * ```shell eps_f``` : is the rate of matching to far thing for each LSH.
+  * ```shell error_rate_percent``` : is the mean rate of errors, when sampling query from actual data.
