@@ -32,3 +32,4 @@ You can select a set of working parameters from table 1, 2, or 3 of the paper to
 
 Required packages:
  * [Numpy](https://numpy.org/)
+ * [SciPy](https://scipy.org/)
