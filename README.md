@@ -22,7 +22,7 @@ You can select a set of working parameters from table 1, 2, or 3 of the paper.
 
   * dataset_size : is the intended dataset size
   * lsh_size : is the size of each eLSH, or in other words number of concatenated LSHes. Corresponding to \alpha in the paper.
-  * b_eLSHes : is the number of required eLSHes. Corresponding to n in the paper.
+  * nb_eLSHes : is the number of required eLSHes. Corresponding to n in the paper.
   * nb_matches_needed : is the required number of matches so that the decoding algorithm works. Corresponding to k in the paper.
   * eps_t : is the rate of mathing to close things for each LSH.
   * eps_f : is the rate of matching to far thing for each LSH.
