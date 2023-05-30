@@ -29,3 +29,6 @@ You can select a set of working parameters from table 1, 2, or 3 of the paper to
   * ```eps_t``` : is the rate of mathing to close things for each LSH.
   * ```eps_f``` : is the rate of matching to far thing for each LSH.
   * ```error_rate_percent``` : is the mean rate of errors, when sampling query from actual data.
+
+Required packages:
+ * [Numpy](https://numpy.org/)
